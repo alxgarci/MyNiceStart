@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyNiceStart</string>
+    <string name="titulo">MyNiceStart</string>
 </resources>

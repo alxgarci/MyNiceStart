@@ -5,26 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@color/colorAccent">
+    android:background="@color/colorBackground">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivFondoPlanta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/girl"
+        android:scaleType="fitEnd"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:scaleType="fitStart"
-        />
+        app:srcCompat="@drawable/planta_fondo" />
 
     <ImageView
-        android:id="@+id/tienda"
+        android:id="@+id/ivIconoArbol"
         android:layout_width="88dp"
         android:layout_height="88dp"
         android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/ic_tienda"/>
+        android:background="@drawable/ic_arbol" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
