@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyNiceStart</string>
     <string name="titulo">MyNiceStart</string>
+    <string name="registro">have you got an account? Register</string>
 </resources>

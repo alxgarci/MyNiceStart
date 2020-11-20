@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SplashActivity"
     android:background="@color/colorAccent">
 
     <ImageView
@@ -20,7 +20,7 @@
         android:id="@+id/ivIconoArbol"
         android:layout_width="122dp"
         android:layout_height="122dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="170dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
