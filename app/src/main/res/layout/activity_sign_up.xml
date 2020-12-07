@@ -101,5 +101,24 @@
 
 
     </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCancel"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+
+        android:text="CANCEL"
+        android:textColor="@color/colorBackground"
+        android:textSize="22sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSignUp"
+        style="@style/ButtonStraight"
+        android:onClick="cancel">
+
+
+    </com.google.android.material.button.MaterialButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

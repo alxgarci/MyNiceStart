@@ -21,5 +21,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="MyThemeMains" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimaryDark">@color/colorAlpha</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
 </resources>
