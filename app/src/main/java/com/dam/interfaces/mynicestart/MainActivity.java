@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * Main con boton de continuar
+ * @author alex
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView textoBienv;

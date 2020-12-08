@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Main2 con botón para retroceder
+ * @author alex
+ */
+
 public class MainActivity2 extends AppCompatActivity {
 
     @Override
@@ -14,8 +19,4 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
 
-    public void volver(View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
-    }
 }

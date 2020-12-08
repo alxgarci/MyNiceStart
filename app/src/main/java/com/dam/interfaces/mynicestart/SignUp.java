@@ -9,6 +9,11 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
+/**
+ * Ventana de registro con cancel para retroceder
+ * @author alex
+ */
+
 public class SignUp extends AppCompatActivity {
 
     String nombre;

@@ -11,6 +11,11 @@ import android.widget.Toast;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
+/**
+ * Ventana login
+ * @author alex
+ */
+
 public class LoginActivity extends AppCompatActivity {
 
     TextInputEditText nombreEdit;
