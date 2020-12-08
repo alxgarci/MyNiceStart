@@ -30,6 +30,8 @@ public class LoginActivity extends AppCompatActivity {
         usuario = nombreEdit.getText().toString();
         if (!usuario.isEmpty()) {
             Intent i = new Intent(this, MainActivity.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
             i.putExtra("USUARIO", usuario);
             startActivity(i);
         } else {
