@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    android:id="@+id/amLayout">
 
     <ImageView
         android:id="@+id/ivFondoPlanta"
@@ -33,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnContinuar"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
@@ -48,4 +49,38 @@
         style="@style/ButtonStraight"
         android:onClick="continuar">
     </com.google.android.material.button.MaterialButton>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/myswipe">
+        <TextView
+            android:id="@+id/taporswipetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="long tap or swipe to refresh"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/cvExpandableCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorPrimary"
+        app:animationDuration="300"
+        app:expandOnClick="true"
+        app:inner_view="@layout/expandable_view"
+        app:startExpanded="false"
+        app:title="@string/app_name"
+        >
+    </com.alespero.expandablecardview.ExpandableCardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
